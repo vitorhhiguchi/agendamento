@@ -12,7 +12,7 @@ Content-Type: application/json
 GET http://localhost:3000/salas
 
 ### Atualizar informações Sala
-PATCH http://localhost:3000/salas/1
+PATCH http://localhost:3000/salas/2
 Content-Type: application/json
 
 {
@@ -20,10 +20,9 @@ Content-Type: application/json
 }
 
 ### Deletar salas
-DELETE http://localhost:3000/salas/1
+DELETE http://localhost:3000/salas/3
 
 ### Criar reunião
-
 POST http://localhost:3000/reunioes
 Content-Type: application/json
 
@@ -31,11 +30,11 @@ Content-Type: application/json
     "nomeAluno": "Vitor",
     "inicio": "2025-01-01T10:00:00.000Z",
     "fim": "2025-01-01T11:00:00.000Z",
-    "salaId": 1
+    "salaId": 4
 }
 
 ### Listar reuniões
 GET http://localhost:3000/reunioes
 
 ### Deletar reunião
-DELETE http://localhost:3000/reunioes/1
+DELETE http://localhost:3000/reunioes/6
