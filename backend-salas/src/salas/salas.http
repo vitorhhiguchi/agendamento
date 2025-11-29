@@ -1,0 +1,41 @@
+
+### Criar sala
+POST http://localhost:3000/salas
+Content-Type: application/json
+
+{
+    "nome": "Sala Principal",
+    "capacidade": 30
+}
+
+### Listar sala
+GET http://localhost:3000/salas
+
+### Atualizar informações Sala
+PATCH http://localhost:3000/salas/1
+Content-Type: application/json
+
+{
+  "nome": "Sala Azul"
+}
+
+### Deletar salas
+DELETE http://localhost:3000/salas/1
+
+### Criar reunião
+
+POST http://localhost:3000/reunioes
+Content-Type: application/json
+
+{
+    "nomeAluno": "Vitor",
+    "inicio": "2025-01-01T10:00:00.000Z",
+    "fim": "2025-01-01T11:00:00.000Z",
+    "salaId": 1
+}
+
+### Listar reuniões
+GET http://localhost:3000/reunioes
+
+### Deletar reunião
+DELETE http://localhost:3000/reunioes/1
