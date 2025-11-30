@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  frontend:
+    build: .  # Caminho para a pasta do seu front
+    container_name: meu-frontend-react
+    ports:
+      - "5173:80"  # Mapeia a porta 5173 do seu PC para a 80 do container
+    environment:
+      # Se seu backend estiver rodando no Windows (fora do Docker), use host.docker.internal
+      # Se estiver no Linux ou Mac, geralmente localhost funciona ou precisa de ajustes de rede
+      - VITE_API_URL=http://host.docker.internal:3000
