@@ -6,9 +6,9 @@
 
 Projeto desenvolvido para a disciplina de **Sistemas Operacionais e Programação Web**. O sistema é uma aplicação Fullstack para gerenciamento de salas e agendamento de reuniões, com foco em usabilidade (UX), performance e containerização.
 
-![Dashboard](./screenshots/dashboard.png)
-![Salas](./screenshots/salas.png)
-![Reuniões](./screenshots/reunioes.png)
+![Dashboard](./images/dashboard.jpg)
+![Salas](./images/salas.jpg)
+![Reuniões](./images/reunioes.jpg)
 
 ---
 
