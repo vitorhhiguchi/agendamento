@@ -58,11 +58,13 @@ Este é o método recomendado, pois sobe todo o ambiente (Banco + Back + Front) 
 ### Passo a Passo
 
 1. **Clone o repositório:**
+
    ```bash
-   git clone [https://github.com/vitorhhiguchi/agendamento.git](https://github.com/vitorhhiguchi/agendamento.git)
+   git clone (https://github.com/vitorhhiguchi/agendamento.git)
    cd agendamento
    ```
 2. **Suba os containers: Em cada diretório do projeto(backend-salas e frontend), execute:**
+
     ```bash
     docker compose up --build
     ```
